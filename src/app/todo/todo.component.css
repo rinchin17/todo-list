@@ -1,0 +1,44 @@
+mat-toolbar{
+    text-align: center;
+}
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 35%;
+    margin-top: 100px;
+    background-color:#aabbcc;
+    margin-right: 29%;
+}
+.input{
+    margin-left: 40%;
+    margin-top: 100px;
+    text-align: center;
+    height: 120px;
+    width: 200px;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: #aabbcc;
+}
+.input input{
+    border: solid black 1px;
+    text-align: center;
+}
+.list{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 60px;
+    background-color: #aabbcc;
+}
+.list p{
+    color:white;
+}
+button{
+    padding-top: 0px;
+    margin-top:0px;
+}

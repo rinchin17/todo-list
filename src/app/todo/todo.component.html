@@ -1,0 +1,13 @@
+<mat-toolbar color="primary"><h1>Todo List</h1></mat-toolbar>
+<div class="header">
+    <b>Enter the job in the text-field to add to TodoList</b>
+</div>
+<div class="input">
+    <p><input type="text" placeholder="Enter job" [(ngModel)]=myjob></p>
+    <button mat-raised-button (click)="addJob()">Add job to list</button>
+</div>
+<div class="list">
+    <p>Todo List : {{job}}</p>
+   
+</div>
+  
